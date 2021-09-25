@@ -1,3 +1,11 @@
+深度学习框架新贵—JAX(2)—JAX 能否终结 Numpy 的时代
+
+JAX 继承 Numpy 操作数组 friendly 的 API，不仅于此还可以运行在 GPU 上，同时引入自动求导
+
+用于 Javascript 去解析 Javascript 自己动手写一个 Parser(1)
+
+自己动手一步一步去用 Javascript 实现一个 javascript 的解析器
+
 从根本上说，JAX 是一个库，提供 API 类似 NumPy，主要用于编写的数组操纵程序进行**转换**。甚至有人认为 JAX 可以看做 Numpy v2，不仅加快 Numpy 而且为 Numpy 提供自动求导(grad)功能，让我们仅凭借 JAX 就可以去实现一个机器学习框架。
 
 接下来主要就是来解释一下为什么说 JAX 提供 API 类似 NumPy，。现在，你可以把  JAX 看作是在加速器上运行支持自动求导的 NumPy。
